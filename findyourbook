@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+<title>Registration form </title>
+
+</head>
+<style>
+form div {margin-bottom:1em}
+div.submit input{margin-left:400px}
+h1{color:green;margin:}
+h2{color:blue;}
+label.field{
+  display:block;
+  float:left;
+  margin-left:15px
+  width:150px;
+  text-align:right;}
+h1{margin:17px;}
+body{margin:150px;}
+</style>
+</head
+<body>
+<h1>Registration Form</h1>
+<h2>Fill the followiing form to register</h2>
+<div>
+<label class="field" for="name">Name</label>
+<input id="name" type="text">
+</div>
+<div>
+<label class="field" for="name">Mobile</label>
+<input id="name" type="text">
+</div>
+<div>
+<label class="field" for="name">Email</label>
+<input id="name" type="text">
+</div>
+<div>
+<label class="field" for="name">User id</label>
+<input id="name" type="text">
+</div>
+<div>
+<label class="field" for="name">Password</label>
+<input id="name" type="password">
+</div>
+<div>
+<label class="field">Gender</label>
+<label><input type="radio" name="gender" value="male">male</label>
+<label><input type="radio" name="gender" value="female">female</label>
+<label><input type="radio" name="gender" value="Transgender">transgender</label>
+</div>
+<div>
+<label class="field">Country<label>
+<select name="country">
+<option value="India">India</option>
+<option value="Other">Other</option>
+</div>
+<h2>hele</h2>
+<div>
+<label class="field">About Yourself</label>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
